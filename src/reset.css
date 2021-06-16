@@ -1,0 +1,252 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*::before, *::after {
+    box-sizing: inherit
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    transition: 0.5s;
+    color: #2C2F32;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+a:hover, button:hover {
+    transition: 0.15s;
+}
+
+button {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    transition: 0.15s;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+input[type=button] {
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    min-width: 300px;
+    position: relative;
+    background: #f3f2ef;
+    color: #2C2F32;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+video {
+    vertical-align: bottom;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+svg {
+    display: block;
+    transition: 00.15s;
+}
+
+svg path {
+    transition: 00.15s;
+}
+
+fieldset {
+    padding: 0;
+    border: none;
+}
+
+textarea {
+    overflow: auto;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn, input, textarea, button, .slick-slide {
+    outline: none;
+    border: none;
+}
+
+.slick-slide:focus {
+    outline: none
+}
+
+.slick-prev {
+    z-index: 9;
+    left: 0;
+}
+
+.slick-next {
+    right: 0;
+}
+
+.slick-slide {
+    margin: 0 10px;
+}
+
+.slick-list {
+    margin: 0 -10px;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: pink;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: pink;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: pink;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: pink;
+}
+
+.opacity__7 {
+    transition: 0.15s;
+}
+
+.opacity__7:hover {
+    opacity: .7;
+    transition: 0.15s;
+}
+
+.btn {
+    white-space: nowrap
+}
+
+.same_height>[class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.same_height .item_h {
+    display: flex;
+    height: 100%;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper_main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.wrapper_main .content {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex: 0 0 auto;
+}
+
+.safari input, .safari textarea {
+    display: block;
+    -webkit-appearance: none;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media(min-width:576px) {
+    .container {
+        max-width: 540px
+    }
+}
+
+@media(min-width:768px) {
+    .container {
+        max-width: 720px
+    }
+}
+
+@media(min-width:992px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+@media(min-width:1200px) {
+    .container {
+        max-width: 1140px
+    }
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+}

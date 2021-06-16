@@ -1,0 +1,90 @@
+.header {
+  width: 100%;
+  padding: 10px 20px;
+  border-bottom: 1px solid #E4E6F1;
+  background: #ffffff;
+  height: 60px;
+}
+
+.logo img {
+  max-width: 50px;
+}
+
+.main-wrapper {
+  display: flex;
+  padding: 20px;
+}
+
+.main-wrapper .sidebar {
+  max-width: 240px;
+  width: 100%;
+  height: calc(100vh - 100px);
+  margin-right: 20px;
+}
+
+.main-wrapper main {
+  width: 100%;
+  height: auto;
+}
+
+.block {
+  background: #ffffff;
+  border: 1px solid #EAEBF2;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.profile_bg {
+  width: 100%;
+  position: relative;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.profile_bg img, .profile-info_wrapper .avatar img {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile-info_wrapper {
+  padding-top: 70px;
+  display: flex;
+  position: relative;
+}
+
+.profile-info_wrapper .avatar {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  top: -50px;
+  left: 20px;
+}
+
+.profile-info {
+  background: #f3f2ef;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.profile-info .name {
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: bold;
+  color: #2C2F32;
+}
+
+.profile-info h6 {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 26px;
+}
